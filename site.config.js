@@ -7,7 +7,7 @@ const CONFIG = {
     bio: "typescript and java developer",
     email: "qkralsrl42@gmail.com",
     linkedin: "",
-    github: "https://github.com/mgpark-korean",
+    github: "mgpark-korean",
     instagram: "",
   },
   projects: [
@@ -20,6 +20,7 @@ const CONFIG = {
   blog: {
     title: "탐탐한 탐의 DevBlog",
     description: "",
+
   },
 
   // CONFIG configration (required)
@@ -49,9 +50,9 @@ const CONFIG = {
   utterances: {
     enable: true,
     config: {
-      repo: process.env.NEXT_PUBLIC_UTTERANCES_REPO || "",
+      repo: process.env.NEXT_PUBLIC_UTTERANCES_REPO || "mgpark-korean/morethan-log",
       "issue-term": "og:title",
-      label: "💬 Utterances",
+      label: "💬 comments",
     },
   },
   cusdis: {
